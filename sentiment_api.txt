@@ -1,0 +1,6 @@
+curl --location http://127.0.0.1:8000/sentiment \
+-H "Content-Type: application/json" \
+-d '{
+	"text": "สินค้าน่ารักแบบมากๆๆๆเบยค้าบ ปุ๊กปิ๊กมาก ผ้าดี มีบุซับใน ทำดี สมราคาค้าบบบบ แพ็คดี จัดส่งรววเร็ว ชอบบบ",
+	"classifly": ["strongly positive", "strongly negative", "weakly positive", "weakly negative"]
+}'
